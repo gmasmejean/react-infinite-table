@@ -1,5 +1,5 @@
-
-export { default as Table } from './lib/Table'
+import './style.css';
+export { default as Table } from './lib/Table';
 
 export function reorderColumns (columns, fromIndex, toIndex) {
   const newColumns = [...columns]
